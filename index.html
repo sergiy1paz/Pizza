@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style_popup.css">
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+
+
+    <title>Family pizza</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-body">
+                    <h2>Family pizza</h2>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="main-body">
+                    <h1>Choose your pizza</h1>
+                    <hr>
+                    <div class="pizza-choises">
+                        <div class="menu">
+                            <!-- вибір піци -->
+                            <div class="choise">
+                                <h2>SMALL</h2>
+                                <button value="small">+</button>
+                            </div>
+                            <div class="choise">
+                                <h2>MEDIUM</h2>
+                                <button value="medium">+</button>
+                            </div>
+                            <div class="choise">
+                                <h2>BIG</h2>
+                                <button value="big">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basket">
+                        <a href="basket.html"><img src="images/basket.png" alt="bask"></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="popup">
+        <div class="container">
+            <div class="window">
+                <h2>Add ingredients</h2>
+                <form name="ingredients" class="ingredients-form">
+                    <input type="checkbox" id="mushrooms" value="mushrooms">
+                    <label for="mushrooms">Mushrooms</label><br>
+
+                    <input type="checkbox" id="bacon" value="bacon">
+                    <label for="bacon">Bacon</label><br>
+
+                    <input type="checkbox" id="tomatoes" value="tomatoes">
+                    <label for="tomatoes">Tomatoes</label><br>
+
+                    <input type="checkbox" id="cheese" value="cheese">
+                    <label for="cheese">Cheese</label><br>
+
+                    <input type="checkbox" id="olives" value="olives">
+                    <label for="olives">Olives</label><br>
+                </form>
+                <div class="button-container">
+                    <button id="add_order">ADD</button>
+                    <button id="cancel">CANCEL</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="modules/main_index.js" type="module"></script>
+
+</body>
+</html>

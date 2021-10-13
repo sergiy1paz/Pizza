@@ -1,0 +1,143 @@
+
+.wrapper, main, .container {
+    height: 100%;
+    
+}
+
+
+.user-form {
+    margin-bottom: 20px;
+}
+.user-form form {
+    display: flex;
+    justify-content: center;
+}
+
+.user-form input {
+    border: 1px solid black;
+    margin-left: 5px;
+}
+
+.user-form label {
+    margin-left: 5px;
+    font-family:  'Ephesis', cursive;
+    font-size: 1.5em;
+    color: #631994;
+}
+
+main h2 {
+    text-align: center;
+    font-family:  'Ephesis', cursive;
+    color: red;
+    font-size: 2em;
+}
+
+
+/* classes for orders */
+.orders-body {
+    width: 100%;
+    height: 50%;
+    border: 10px double #631994;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+
+
+.order {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    border-bottom: 3px solid gray;
+}
+
+.order:hover {
+    background: gray; 
+    /* set another color */
+}
+
+.order > h3 {
+    margin: 0px 15px;
+    color: red;
+}
+
+
+.ingredient {
+    /* text-align: center; */
+    margin-right: 10px;
+    padding: 4px;
+    background: #631994;
+    color: white;
+    border-radius: 30%;
+}
+
+
+
+/* end */
+
+
+/* message */
+
+.message-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message {
+    font-size: 2em;
+    color: gray;
+    font-family:  'Ephesis', cursive;
+}
+
+
+/* end */
+
+
+.result {
+    width: auto;
+    text-align: center;
+    color: #631994;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 1.25em;
+
+}
+
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button {
+    width: 10%;
+    height: 30px;
+    margin: auto;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: larger;
+}
+
+#remove_item {
+    background: red;
+}
+
+#remove_item[disabled] {
+    background: gray;
+}
+
+#order {
+    background: yellowgreen;
+}
+
+li {
+    font-size: 2em;
+}
+

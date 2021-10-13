@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style_basket_page.css">
+
+    <title>Family pizza</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-body">
+                    <h2>Family pizza</h2>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+
+                <div class="user-form">
+                    <form name="userInfo">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name"> <br>
+
+                        <label for="surname">Surname</label>
+                        <input type="text" name="surname" id="surname"> <br>
+
+                        <label for="phone-number">Phone number</label>
+                        <input type="tel" name="phone-number" id="phone-number" required>
+
+
+                    </form>
+                </div>
+
+                <h2>Yours orders</h2>
+                <div class="orders-body">
+                </div>
+                <div class="result">
+                    <span>TOTAL PRICE</span>
+                    <span id="total_price">0</span>
+                </div>
+                <div class="button-container">
+                    <button id="remove_item" disabled>REMOVE</button>
+                    <button id="order">ORDER</button>
+
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="modules/main_basket.js" type="module"></script>
+</body>
+
+</html>

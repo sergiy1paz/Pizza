@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+.wrapper {
+
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0px auto;
+    padding: 0px 10px;
+}
+
+.header {
+    width: 100%;
+    /* background: #561780 */
+    background: #631994;
+}
+
+
+.header-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.header-body > h2 {
+    color: red;
+    font-family: 'Ephesis', cursive;
+    font-size: 4em;
+}
+
+/* main */
+
+main {
+    margin-top: 50px;
+}
+
+
+
+
+.main-body > h1 {
+    text-align: center;
+    color: #631994;
+    font-family: 'Ephesis', cursive;
+    font-size: 3em;
+
+}
+
+.main-body > hr {
+    border: 2px ridge red;
+    max-width: 40%;
+    margin: 20px auto 30px;
+}
+
+
+
+.pizza-choises {
+
+}
+
+.menu {
+    margin: auto;
+    width:  33%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+
+.choise {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.choise > button {
+    width: 50px;
+    height: auto;
+    border: none;
+    border-radius: 5px;
+    background: greenyellow;
+    color: white;
+    font-size: 2em;
+}
+
+.choise > h2 {
+    font-family: 'Gemunu Libre', sans-serif;
+    color: #631994;
+
+}
+
+/* basket */
+
+.basket {
+    width: 70px;
+    margin: auto;
+}
+
+.basket a, .basket img {
+    width: 100%;
+}
+
+
